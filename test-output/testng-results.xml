@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[click the forgotpassword button[[ChromeDriver: chrome on WINDOWS (b1a4b1519c7390005ccaf01d6abab77e)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[4]/p[1]]]]>
+    </line>
+    <line>
+      <![CDATA[returning Customer Text]]>
+    </line>
+    <line>
+      <![CDATA[returning Customer Text]]>
+    </line>
+  </reporter-output>
+  <suite name="smoke suite" duration-ms="7553" started-at="2022-12-13T09:05:16 GMT" finished-at="2022-12-13T09:05:23 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="7553" started-at="2022-12-13T09:05:16 GMT" finished-at="2022-12-13T09:05:23 GMT">
+      <class name="com.orangehrmlive.demo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="5856" started-at="2022-12-13T09:05:16 GMT" finished-at="2022-12-13T09:05:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="46" started-at="2022-12-13T09:05:22 GMT" finished-at="2022-12-13T09:05:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="1133" started-at="2022-12-13T09:05:22 GMT" finished-at="2022-12-13T09:05:23 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click the forgotpassword button[[ChromeDriver: chrome on WINDOWS (b1a4b1519c7390005ccaf01d6abab77e)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[4]/p[1]]]]>
+            </line>
+            <line>
+              <![CDATA[returning Customer Text]]>
+            </line>
+            <line>
+              <![CDATA[returning Customer Text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-12-13T09:05:23 GMT" finished-at="2022-12-13T09:05:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.demo.testsuite.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- smoke suite -->
+</testng-results>
